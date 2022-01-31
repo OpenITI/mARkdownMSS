@@ -1,7 +1,7 @@
 #!/bin/sh
 
 pandoc -s /Users/romanov/Dropbox/0_Zettelkasten/research_vault/mARkdownMSS\ -\ NOTES.md -o mARkdownMSS.html
-
+pandoc /Users/romanov/Dropbox/0_Zettelkasten/research_vault/mARkdownMSS\ -\ NOTES.md --pdf-engine=xelatex -o mARkdownMSS.pdf
 
 # HTML fragment:
 #pandoc MANUAL.txt -o example1.html

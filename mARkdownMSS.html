@@ -153,7 +153,7 @@
 <h1 id="openiti-markdownmss-basics-of-the-format">OpenITI mARkdownMSS: Basics of the Format</h1>
 <p><em>A Technical Note:</em> the highlighting scheme for <code>mARkdownMSS</code> is a part of the new <code>mARkdownSimple</code> scheme, which will replace the initial <code>mARkdown</code>. The scheme is activated by the <em>magic value</em> <code>#OpenITI#</code></p>
 <p>The latest highlighting scheme for EditPad Pro is available here: <a href="https://github.com/OpenITI/mARkdown_scheme" class="uri">https://github.com/OpenITI/mARkdown_scheme</a></p>
-<p>The implementation of this scheme in development can be found here: <a href="https://github.com/OpenITI/mARkdownMSS" class="uri">https://github.com/OpenITI/mARkdownMSS</a>; for examples of automatically generated editions, see &lt;&gt;</p>
+<p>The implementation of this scheme in development can be found here: <a href="https://github.com/OpenITI/mARkdownMSS" class="uri">https://github.com/OpenITI/mARkdownMSS</a>; for examples of automatically generated editions, see <a href="https://openiti.github.io/mARkdownMSS/" class="uri">https://openiti.github.io/mARkdownMSS/</a>.</p>
 <h2 id="main-text">Main Text</h2>
 <pre><code>
 #=# for a diplomatic transcription
@@ -307,7 +307,7 @@
 <li>insert these tags in the <code>mARkdownMSS</code> document at the beginning of a manuscript folio — on the separate line (with an empty line before and an empty line after) right before the first line of text on that folio.</li>
 </ul>
 <h3 id="lacunae">Lacunae</h3>
-<p><code>...</code> is to be used to indicate an unclear, illegible, or missing section in the original scan. Use sets of three periods up to the approximate amount of illegible text. For example, if three words are illegible, you should insert: <code>... ... ...</code></p>
+<p><code>===</code> is to be used to indicate an unclear, illegible, or missing section in the original scan. Use sets of three periods up to the approximate amount of illegible text. For example, if three words are illegible, you should insert: <code>=== === ===</code></p>
 <h3 id="named-entities-persons-toponyms-etc.">Named Entities (persons, toponyms, etc.)</h3>
 <p>You can tag the same types of entities which are included in <code>mARkdown</code>, however, since the structure of <code>mARkdownMSS</code> documents is different, the tags are also slightly different: 1) small letters instead of capital (e.g., <code>@p02</code> instead of <code>@P02</code>, as in <code>mARkdown</code>); 2) the entity will not be highlighted like in <code>mARkdown</code> (because of the <code>mARkdownMSS</code> structure, an entity may be split between multiple lines, which makes highlighting impossible);</p>
 <ul>

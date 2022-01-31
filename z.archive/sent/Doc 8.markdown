@@ -1,0 +1,47 @@
+######OpenITI_MSS#
+
+#META# DOCUMENT_URI	:: 1280CumarIbnSayyid.SuratNasr.UNCVCPBM837K-ara1
+#META# URL	:: https://guides.lib.unc.edu/omar-ibn-said/wilson-libraryz
+#META# REPOSITORY	:: Wilson Library, Rare Book Collection, University of North Carolina
+#META# CATALOG_ID	:: VCpB_M837k
+#META# TRANSCRIBER	:: Carl W. Ernst and Mbaye Lo
+#META# EXTERNAL_DESCRIPTION	:: The Lord's Prayer written in Arabic by Uncle  Moreau (Omar) a native  African now owned by General Owen of Wilmington, N.C. He is now  88 years of age + a devout Christian. Given to Mary Jones, at the Rockbridge Alum Springs, Rockbridge County Va., by Gen. Owen on July 27. 1857.
+#META# FOLIOS	:: 1
+#META# LINES	:: 9
+#META# COLOPHON	:: -
+#META# NOTES		:: CWE: Omar ibn Said, Document 2, transcription Carl W. Ernst and Mbaye Lo, Harmattan font, Maghribi script, following line breaks of original
+#META# NOTES		::
+
+#META#Header#End#
+
+#-# اذا جاء النصر من اللَّـه
+#^# Q1B اذَا جَاءَ نَصْرُ اللَّـهِ
+
+#-# والڢتح ڧريب وبشر المو
+#^# وَالْفَتْحُ ﴿١﴾ Q2B
+
+#-# منين  ورايت الناس
+#^# Q2E وَرَأَيْتَ النَّاسَ
+
+#-# يدخلون ڢي دين
+#^# يَدْخُلُونَ فِي دِينِ
+
+#-# اللَّـه اڢواجا ڢسبِح
+#^# اللَّـهِ أَفْوَاجًا ﴿٢﴾ فَسَبِّح
+
+#-# بحمد ربك
+#^# بِحَمْدِ رَبِّكَ
+
+#-# واستغڢره انه
+#^# وَاسْتَغْفِرْهُ إِنَّهُ
+
+#-# كان توابا SEP1
+#^# كَانَ تَوَّابًا ﴿٣﴾ Q1E
+
+#-# تمت اسمي عمر يا اعمار
+#^# تمت اسمي عمر يا اعمار
+
+#*#  Q1B_Q1E :: Qur'an 110:1-3
+#*#  Q2B_Q2E :: Qur'an 61:13
+
+PageEndV00P0001

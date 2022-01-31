@@ -1,0 +1,44 @@
+#OpenITI##########################################
+#META# DOCUMENT_URI :: 1280CumarIbnSayyid.AyatThalitha.HarvardAm168D16-ara1
+#META# DOCUMENT_NUMBER :: 16
+#META# REPOSITORY :: Houghton Library, Harvard College Library
+#META# CATALOG_ID :: Charles Sumner scrapbook, MS Am 1.68, Page 47
+#META# TRANSCRIBER :: Carl W. Ernst and Mbaye Lo
+#META# URL :: https://iiif.lib.harvard.edu/manifests/view/drs:483116752$1i
+#META# FOLIOS :: 1
+#META# LINES :: 6
+#META# NOTES :: CWE: Omar ibn Said, Document 16, transcription Carl W. Ernst and Mbaye Lo, Harmattan font, Maghribi script, following line breaks of original
+#METADATAEND######################################
+
+FolioV1F1A
+
+#=# الهم يا به صلى على محمد والحمد لله رب العالمين
+#~# الهم يا به صلى على @p01 محمد A16 والحمد لله رب العالمين A16
+
+#=# الخير عند الله لا لغيره SEP2 ان الذين ءامنوا SEP5 SEP4
+#~# A19 الخير عند الله لا لغيره A20 A19 ان الذين آمنوا A20 SEP5 SEP4
+
+#=# ويل لكل همزة الذي جمع مالا وعدده يحسب
+#~# A22 وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ الَّذِي جمَعَ مَالًا وَعَدَّدَهُ يَحْسَبُ
+
+#=# ان ماله اخلده كلا لينبذن ڢي الحطمة وما ادراك
+#~# أَنَّ مَالَهُ أَخْلَدَهُ كَلَّا لَيُنبَذَنَّ فِي الْحُطَمَةِ وَمَا أَدْرَاكَ
+
+#=# ما الحطمة نار الله الموفدة التي تطلع على الاڢئدة
+#~# مَا الْحُطَمَةُ نَارُ اللَّهِ الْمُوقَدَةُ الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ
+
+#=# انها عليهم موصدة ڢي عمد ممددة سورة ڢيل
+#~# إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ فِي عَمَدٍ مُّمَدَّدَةٍ A31 A22 سورة فيل A31
+
+#=# SEP5 SEP4 SEP5
+#~# SEP5 SEP4 SEP5
+
+#*# A16 :: Qur'an 1:1
+
+#*# A19 :: Good formula
+
+#*# A20 :: Qur'an 2:62
+
+#*# A22 :: Qur'an 104:1-9
+
+#*# A31 :: Qur'an 105 title

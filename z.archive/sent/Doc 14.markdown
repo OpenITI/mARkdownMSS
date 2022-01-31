@@ -1,0 +1,42 @@
+######OpenITI_MSS#
+
+#META# DOCUMENT_URI	:: 1280CumarIbnSayyid.OwenThani.NHCL1247OBC003D14-ara1
+#META# DOCUMENT_NUMBER	:: 14
+#META# REPOSITORY	::New Hanover County Library
+#META# CATALOG_ID	:: Sp. Coll. #1247 OBC003
+#META# TRANSCRIBER	:: Carl W. Ernst
+#META# URL	 :: http://cdm16072.contentdm.oclc.org/cdm/ref/collection/p15169coll8/id/26
+#META# PAGE_SIZE	:: INSERT_HERE
+#META# FOLIOS	:: 1
+#META# LINES	:: 7
+#META# COLOPHON	:: --
+#META# NOTES	:: 14, CWE: Omar ibn Said, Document transcription Carl W. Ernst, Harmattan font, Maghribi script, following line breaks of original
+#META# NOTES		::Last 2 lines damaged.
+
+#META#Header#End#
+
+#-# بسم الله الرحمن الرحيم
+#^# بسم الله الرحمن الرحيم
+
+#-# صلى الله على سيدنا محمد
+#^# صلى الله على @P12 سيدنا محمد
+
+#-# الحمد لله الذی خلڧ الخلڧ لعبا
+#^# Q1B الحمد لله الذی خلق الخلق لعبا
+
+#-# ته حتی زرب اڢعالهم و اڧوالهم
+#^# دته حتی جرب افعالهم و اقوالهم Q1E
+
+#-# إنك اعترڢت بڢمك ان يسوع ربا
+#^# Q2B إنك اعترفت بفمك ان @P01 يسوع ربا
+
+#-# وصد ... ... ... ... ... أڧامه
+#^# وصدقت بقلبك أن الله أقامه
+
+#-# ... ... ... ...
+#^# من الأموات خلصت Q2E
+
+Q1B_Q1E :: Testing formula
+Q2B_Q2E :: Romans 10:9
+
+PageEndV00P0001

@@ -1,0 +1,61 @@
+######OpenITI_MSS#
+
+#META# DOCUMENT_URI	:: 1280CumarIbnSayyid.AbanaThani.DC0211S2D3-ara1
+#META# DOCUMENT_NUMBER	:: 3
+#META# REPOSITORY	:: Davidson College
+#META# CATALOG_ID	:: DC0211s-2
+#META# TRANSCRIBER	:: Carl W. Ernst and Mbaye Lo
+#META# URL	:: http://davidsonlibraryexhibits.net/archives/files/original/654eb61d4b68ebeb2b0a5d2d5a256ad0.jpg
+#META# FOLIOS	:: 1
+#META# LINES	:: 14
+#META# COLOPHON	:: INSERT_HERE
+#META# NOTES		:: 3 CWE: Omar ibn Said, Document 2, transcription Carl W. Ernst and Mbaye Lo, Harmattan font, Maghribi script, following line breaks of original
+#META# NOTES		::
+
+#META#Header#End#
+
+#-# بسم الله الرحمن الرحيم صلى الله على سيدنا محمد و
+#^# بسم الله الرحمن الرحيم صلى الله على@P12 سيدنا محمد و
+
+#-# يا ابانا الذي ڢي السموات يتفدس
+#^# Q1B (9) يا أبانا الذي في السموات يتقدس
+
+#-# اسمك ؞ تاتي ملكوتك كما ڢي
+#^# اسمك (10) تأتي ملكوتك تكون مشيتك كما في
+
+#-# تكون مشيتك كما ڢي
+#^#
+
+#-# السماء وعلى الأرض ؞ خبزنا
+#^# السماء وعلى الأرض (11) خبزنا
+
+#-# الذي للغد اعطنا اليوم ؞
+#^# الذي للغد اعطنا اليوم
+
+#-# واغفر لنا ما علينا كما نغڢر
+#^# (12) واغفر لنا ما علينا كما نغفر
+
+#-# نحن لمن لنا عليه ؞ ولا تد
+#^# نحن لمن لنا عليه (13) ولا
+
+#-# خلنا التجارب لكن نجنا
+#^# تدخلنا التجارب لكن نجنا
+
+#-# من الشرير ڢان لك
+#^# من الشرير فإن لك
+
+#-# المك والفوة والمجد الى
+#^# الملك والقوة والمجد إلى
+
+#-# الابد ءامين SEP2
+#^# الأبد آمين ؞ Q1E
+
+#-# اسمي عمر ابن سيد و أما من جهة أمي امهاني يرمك
+#^# اسمي @P03 عمر ابن سيد و أما من جهة أمي @P02 امهاني يرمك
+
+#-# برد الله ضريحه
+#^# برد الله ضريحه
+
+#*# Q1B_Q1E :: Matthew 6:9-13 (Lord's Prayer)
+
+PageEndV00P0001

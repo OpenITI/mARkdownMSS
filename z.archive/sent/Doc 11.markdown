@@ -1,0 +1,203 @@
+######OpenITI_MSS#
+
+#META# DOCUMENT_URI	:: 1280CumarIbnSayyid.Hawashi.DC22059B58ARD11-ara1
+#META# DOCUMENT_NUMBER	:: 11
+#META# REPOSITORY	:: Davidson College_
+#META# CATALOG_ID	:: 220.59 B58ar
+#META# TRANSCRIBER	:: Carl W. Ernst and Mbaye Lo
+#META# URL	:: http://davidsonlibraryexhibits.net/archives/exhibits/show/omar-ibn-sayyid-collections/omar-ibn-sayyid-bible
+#META# FOLIOS	:: unnumbered, 409
+#META# EDITION	:: Newcastle-upon-Tyne: Abigail Smith, 1811
+#META# NOTES		:: CWE: Omar ibn Said, Document 11, transcription Carl W. Ernst, Harmattan font, Maghribi script, following line breaks of original
+#META# NOTES		:: Marginal notes made by Omar ibn Said in an Arabic Bible, chiefly Arabic transliteration of English titles of biblical books
+
+#META#Header#End#
+
+#-# الحمد لله
+#^# الحمد لله
+
+#-# الخير عند الله
+#^# Q1B الخير عند الله Q1E
+
+#-# مس ڢِرسص بوموا
+#^# @P13 مس فرسص بوموا
+
+#-# ان الذين أمنوا
+#^# ان الذين أمنوا
+
+#-# الخير عند الله
+#^# Q2B الخير عند الله Q2E
+
+#-# عمر ابن سيد ادم
+#^# @P04 عمر ابن سيد آدم
+
+#-# إنَّ قَارُونَ كَانَ مِن
+#^# Q3B إنَّ قَارُونَ كَانَ مِن Q3E
+
+#-# اول كتاب موسى ذنِسِصْ
+#^# Q4B الخليقة Q4E
+
+#-# كتاب الثاني ذنِسِصْ
+#^# Q5B الخروج Q5E
+
+#-# الِايبِتِكَسْ
+#^# Q6B الحبار Q6E
+
+#-# ذُوشِواْ
+#^# Q7B يوشع بن نون Q7E
+
+#-# ذُزِجِسْ
+#^# Q8B قضاة بني اسرائيل Q8E
+
+#-# روث بَصَبْا؟
+#^# Q9B راعوث الموابية Q9E
+
+#-# الأول كتاب سَامُولْ
+#^# Q10B سمويل Q10E
+
+#-# الأول كتاب كَنَكِلْ
+#^# Q11B اخبار الايام Q11E
+
+#-# ذوبه
+#^# Q12B ايوب الصديق Q12E
+
+#-# كتاب سام
+#^# Q13B مزامير داود Q13E
+
+#-# اَيْذِيعَ
+#^# Q14B اشعياء Q14E
+
+#-# زَرِمائيَ
+#^# Q15B ارمياء Q15E
+
+#-# لِمن تيس
+#^# Q16B المراثي Q16E
+
+#-# حِزِقيال
+#^# Q17B حِزِقيال Q17E
+
+#-# ذُويِلْ
+#^# Q18B يوييل Q18E
+
+#-# عِيمَصْ
+#^# Q19B عاموص Q19E
+
+#-# ذُونَعْ
+#^# Q20B يونان Q20E
+
+#-# نِيهَمْ
+#^# Q21B ناحوم Q21E
+
+#-# حَبَڧُكَ
+#^# Q22B حبقوق Q22E
+
+#-# زِڢْعِنَاي
+#^# Q23B صفونيا Q23E
+
+#-# مَاسِيُهْ
+#^# Q24B متي Q24E
+
+#-# الخير
+#^# Q25B الخير Q25E
+
+#-# مَعْكَ
+#^# Q26B مرقس Q26E
+
+#-# لُكْ
+#^# Q27B لوقا Q27E
+
+#-# ذون
+#^# Q28B  يحنا Q28E
+
+#-# اِيعَكْسُ ذِيبَاسِلَهْ
+#^# Q29B اعمال الرسل Q29E
+
+#-# الاول كُونسِينْ
+#^# Q30B اهل قرنثيوس Q30E
+
+#-# كِلَاسِينْ
+#^# Q31B اهل غلاطية Q31E
+
+#-# اِڢْيُذِنْ
+#^# Q32B اهل افسس Q32E
+
+#-# ڢِيلِيْبِيَنْ
+#^# Q33B الفيلبيين Q33E
+
+#-# كَلَاسَنْ
+#^# Q34B كولوصايين Q34E
+
+#-# تَسْلُونِي
+#^# Q35B ثسالونيكيين Q35E
+
+#-# تِمَتِيْ
+#^# Q36B تيموثاوس Q36E
+
+#-# ڢِيلِيمَنْ
+#^# Q37B فيليمون Q37E
+
+#-# حِبْرُواْ
+#^# Q38B عبرانيين Q38E
+
+#-# بِتَه
+#^# Q39B بطرس Q39E
+
+#-# رَبْلِسِنْ
+#^# Q40B روية يوحنا Q40E
+
+#-# الحمد لله حمداً كثيراً يواڢِي من نعم
+#^# Q41B الحمد لله حمداً كثيراً يوافي من نعم
+
+#-# ما تزايد من الخير
+#^# ما تزايد من الخير Q41E
+
+#-# اسمي عمر ابن سيد ابن ادم
+#^# اسمي@P05 عمر ابن سيد ابن آدم
+
+#-# و اما جهة امي امهان يرمك
+#^# و اما جهة@P03 امي امهان يرمك
+
+#-# اللهم برد الله ضريحه
+#^# اللهم برد الله ضريحه
+
+#*# Q1B_Q1E :: Good formula
+#*# Q2B_Q2E :: Good formula
+#*# Q3B_Q3E :: Qur’an 28:76
+#*# Q4B_Q4E :: First Book of Moses, Genesis (English title), fol. 4r
+#*# Q5B_Q5E :: Second Book, Exodus (sic; English title Genesis repeated), fol. 22r
+#*# Q6B_Q6E :: Leviticus (English title), fol. 37r
+#*# Q7B_Q7E :: Joshua (English title), fol. 76r
+#*# Q8B_Q8E :: Judges (English title), fol. 85r
+#*# Q9B_Q9E :: Ruth the Moabite (English title), fol. 94r
+#*# Q10B_Q10E :: First Book of Samuel (English title), fol. 96r
+#*# Q11B_Q11E :: First Book of Chronicles (English title), fol. 144r
+#*# Q12B_Q12E :: Job (English title), fol. 180r
+#*# Q13B_Q13E :: Book of Psalms (English title), fol. 190r
+#*# Q14B_Q14E :: Isaiah (English title), fol. 230r
+#*# Q15B_Q15E :: Jeremiah (English title), fol. 249r
+#*# Q16B_Q16E :: Lamentations (English title), fol. 266r
+#*# Q17B_Q17E :: Ezekiel (English title), fol. 270r
+#*# Q18B_Q18E :: Joel (English title), fol. 296r
+#*# Q19B_Q19E :: Amos (English title), fol. 297r
+#*# Q20B_Q20E :: Jonah (English title), fol. 300r
+#*# Q21B_Q21E :: Nahum (English title), fol. 302v
+#*# Q22B_Q22E :: Habakkuk (English title), fol. 303r
+#*# Q23B_Q23E :: Zephaniah (English title), fol. 304r
+#*# Q24B_Q24E :: Matthew (English title), fol. 311r
+#*# Q25B_Q25E :: Good formula
+#*# Q26B_Q26E :: Mark (English title), fol. 322v
+#*# Q27B_Q27E :: Luke (English title), fol. 329v
+#*# Q28B_Q28E :: John (English title), fol. 342r
+#*# Q29B_Q29E :: Acts of the Apostles (English title), fol. 351r
+#*# Q30B_Q30E :: 1 Corinthians (English title), fol. 369v
+#*# Q31B_Q31E :: Galatians (English title), fol. 378v
+#*# Q32B_Q32E :: Ephesians (English title), fol. 380v
+#*# Q33B_Q33E :: Philippians (English title), fol. 382r
+#*# Q34B_Q34E :: Colossians (English title), fol. 383v
+#*# Q35B_Q35E :: 1 Thessalonians (English title), fol. 385r
+#*# Q36B_Q36E :: 1 Timothy (English title), fol. 387r
+#*# Q37B_Q37E :: Philemon (English title), fol. 390r
+#*# Q38B_Q38E :: Hebrews (English title), fol. 390v
+#*# Q39B_Q39E :: 1 Peter (English title), fol. 394v
+#*# Q40B_Q40E :: Revelation (English title), fol. 401r
+#*# Q41B_Q41E :: Ḫalīl, al-Muḫtaṣar, fol. 407v

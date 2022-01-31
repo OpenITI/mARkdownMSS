@@ -1,0 +1,55 @@
+######OpenITI_MSS#
+
+#META# DOCUMENT_URI	:: 1280CumarIbnSayyid.OwenThani.NHCL1247OBC002D13-ara1
+#META# DOCUMENT_NUMBER	:: 13
+#META# REPOSITORY	:: New Hanover County Library
+#META# CATALOG_ID	:: Owen and Barry Family Papers, 1820-1978, Sp. Coll. # 1247, box 1, folder 6, OBC002
+#META# TRANSCRIBER	:: Carl W. Ernst
+#META# EXTERNAL_DESCRIPTION	:: -
+#META# PAGE_SIZE	:: INSERT_HERE
+#META# FOLIOS	:: 1
+#META# LINES	:: 13
+#META# NOTES		:: CWE: Omar ibn Said, Document 13, transcription Carl W. Ernst, Harmattan font, Maghribi script, following line breaks of original
+#META# NOTES		::
+
+#META#Header#End#
+
+#-# بسم الله الرحمن الرحيم صلى الله على
+#^# بسم الله الرحمن الرحيم. صلى الله على
+
+#-# سيدنا محمد الخير عند الله لا لغيره
+#^# @P12 سيدنا محمد. Q1B الخير عند الله لا لغيره. Q1E
+
+#-# الرب يرعاني ڢلا شي يعوزني ؞ وعلى المرج
+#^# Q2B الرب يرعاني فلا شي يعوزني (1) وعلى المرج
+
+#-# الخصيب احلني وعلى ماء الراحة انشاني ؞
+#^# الخصيب احلني وعلى ماء الراح انشاءني (2)
+
+#-# والى سبل البر رد نڢسي وهداني لاجل اسمه ؞
+#^# والى سبل البر رد نفسي وهداني لاجل اسمه (3)
+
+#-# ان سلكت وسط ظلال الموت ڢلا اخشى
+#^# ان سلكت وسط ظلال الموت فلا اخشى
+
+#-# من الاسواء لانك انت معي عصاك وڧضيبك
+#^# من الاسواء لانك انت معي عصاك وڧضيبك
+
+#-# هما عزياني ؞ هياءت مايدة امام اعداي
+#^# هما عزياني (4) هياءت قدامي مايدة امام اعداي
+
+#-# دهنت بالدهن راسي وكاسك اسكرني
+#^# دهنت بالدهن راسي وكاسك اسكرني
+
+#-# كالصرڢ ؞ رحمتك وطيبك يدركني كل
+#^# كالصرف (5) رحمتك وطيبك يدركني كل
+
+#-# ايام حياتي واسكن ڢي بيت الرب
+#^# ايام حياتي واسكن ڢي بيت الرب
+
+#-# طول الايام الليلويا
+#^# طول الايام الليلويا (6) Q2E
+
+#*# 	Q2B_Q2E :: Psalm 23:1-6
+
+PageEndV00P0001

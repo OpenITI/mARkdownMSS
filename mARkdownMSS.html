@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>mARkdownMSS - NOTES</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="openiti-markdownmss-basics-of-the-format">OpenITI mARkdownMSS: Basics of the Format</h1>
+<p><em>A Technical Note:</em> the highlighting scheme for <code>mARkdownMSS</code> is a part of the new <code>mARkdownSimple</code> scheme, which will replace the initial <code>mARkdown</code>. The scheme is activated by the <em>magic value</em> <code>#OpenITI#</code></p>
+<p>The latest highlighting scheme for EditPad Pro is available here: <a href="https://github.com/OpenITI/mARkdown_scheme" class="uri">https://github.com/OpenITI/mARkdown_scheme</a></p>
+<p>The implementation of this scheme in development can be found here: <a href="https://github.com/OpenITI/mARkdownMSS" class="uri">https://github.com/OpenITI/mARkdownMSS</a>; for examples of automatically generated editions, see &lt;&gt;</p>
+<h2 id="main-text">Main Text</h2>
+<pre><code>
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#*# for a comment
+#+# for an insertion into the text
+</code></pre>
+<p>For each line of MSS text there must be two lines of transcription, which can be complemented with additional lines—one for comments, footnotes, etc.; another—for insertions of any kind.</p>
+<ol type="1">
+<li><code>#=#</code> is the diplomatic transcription aimed at representing the text as close as possible to the witness; ideally, a transcriber should maintain a separate record to keep track of how specific cases are handled (this comment can be stored in the metadata head of the text file)</li>
+<li><code>#~#</code> is for an edited version with all the corrections that an editor deems relevant; this version should include structural and analytical tags
+<ul>
+<li><em>important</em>: the edited transcription of the text should still closely follow the diplomatic version; if words must be added or removed, this should be done through comments or insertions. If this symmetry is broken, auto-collation will not be done correctly.</li>
+</ul></li>
+<li><code>#*#</code> is for any kind of annotation or comment can be added through this line, using A[nchor tag]
+<ol type="1">
+<li>can be used to annotate a range of text or a specific location</li>
+<li>Range example:
+<ul>
+<li><code>#~# A33 this is the range of text to annotate A33</code></li>
+<li><code>#*# A33 :: This is a text of a comment to the range marked with the anchor tag A33</code></li>
+</ul></li>
+<li>Specific location example:
+<ul>
+<li><code>#~# a comment will be for this word A33</code></li>
+<li><code>#*# A33 :: there is really nothing special about this word</code></li>
+</ul></li>
+</ol></li>
+<li><code>#+#</code> is for any kind of insertions that the editor deems necessary
+<ol type="1">
+<li>Example of an insertion:
+<ul>
+<li><code>#=# The butcher, the baker, the A55 maker</code></li>
+<li><code>#+# A55 :: candlestick</code></li>
+</ul></li>
+</ol></li>
+</ol>
+<p>Multiple lines would look like shown below. Note an empty line between two-line blocks.</p>
+<pre><code>
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#=# for a diplomatic transcription
+#~# for an edited version
+</code></pre>
+<p>Comment and insertion lines can be added either at the end of the document, or, perhaps more conveniently, right after the lines that they are connected to. Each one of these lines must be separated from any other line by an empty line. For example:</p>
+<pre><code>
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#*# a comment
+
+#+# an insertion
+
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#*# a comment
+
+#+# an insertion
+</code></pre>
+<p>or like this:</p>
+<pre><code>
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#=# for a diplomatic transcription
+#~# for an edited version
+
+#*# a comment
+
+#+# an insertion
+
+#*# a comment
+
+#+# an insertion
+</code></pre>
+<p><strong>A note:</strong> a file with <code>mARkdown</code> text will be automatically generate from the <code>mARkdownMSS</code> — this file is then to be used for any kind of computational analysis. The files will maintain different extensions: <code>.mARkdown</code> and <code>.mARkdownMSS</code> respectively.</p>
+<h3 id="marginal-notes">Marginal Notes</h3>
+<p>For transcribing marginal notes, use the same approach, but with the following beginning-of-the-line tags: <code>#==#</code> <em>&amp;</em> <code>#~~#</code> (i.e., the middle element is repeated twice).</p>
+<ul>
+<li>Placing a note within the transcription document: let’s say the comment begins around line 10 of the main text block; in this case, the commentary is to be added <em>after</em> the transcription block of line 10;</li>
+<li>Each comments must be transcribed as a single unit, no matter how many “lines” it takes; you can insert “|” to demarcate lines, if you consider that necessary.</li>
+</ul>
+<h3 id="using-anchor-tags">Using Anchor Tags</h3>
+<ul>
+<li>Anchor tags have a simple structure: <code>A + digits</code></li>
+<li>how to pick numbers for anchor tags?
+<ol type="1">
+<li>technically, any number can be used, but the number must be unique, i.e. the same number can only be used once in the entire document;</li>
+<li><em>practical suggestion</em>: the easiest way to ensure that numbers do not repeat is to use the line number shown in the EditPad Pro; if you have two or more ranges on the same line, you can use the <code>lineNumber-1</code>, <code>lineNumber-2</code> etc. The key point is that these numbers are not repeated and each anchor tag is unique.</li>
+</ol></li>
+<li>After you assigned and placed an anchor tag somewhere in the edited text, you need to add a comment or insert lines whose format is as follows:
+<ul>
+<li>for a comment: <code>#*# A33 :: your comment</code></li>
+<li>for an insertion: <code>#+# A55 :: your insertion</code></li>
+<li>In other words:
+<ul>
+<li>it must be a new line, separated from other content with an extra empty line (before and after)</li>
+<li>the line starts with <code>#*#</code> or <code>#+#</code></li>
+<li>followed by space, two colons, and another space</li>
+<li>after that you add your comment of insertion element.</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="structural-tags">Structural Tags</h2>
+<p>Structural tags include headers, beginnings of serial units (like biographies in biographical dictionaries; individual <em>ḥadīŧ</em>s in <em>ḥadīṯ</em> collections, etc.), paragraph breaks.</p>
+<h3 id="headers">Headers</h3>
+<p>Since headers are likely to span multiple lines, the following tag should be used:</p>
+<ul>
+<li><code>HL_XX</code>, where:
+<ul>
+<li><code>H</code> is the indication of header</li>
+<li><code>L</code> is the level of the header</li>
+<li><code>XX</code> is the unique number, for which, like with A[nchor] tags, you can use the number of the line in the <code>mARkdown</code> document.</li>
+<li>for example: <code>H1_22 Text of the header H1_22</code>, is the header of level 1, which starts on line 22.</li>
+</ul></li>
+</ul>
+<h3 id="serial-units">Serial units</h3>
+<p>Examples of serial units: <em>the same as in mARkdown</em>, but without <code>$</code>, just English letters: <code>BIO</code>, <code>BIO_MAN</code>, <code>BIO_WOM</code>, etc. These tags are to be used when it is necessary to mark just the beginning of a serial unit; its end will be automatically determined by the beginning of the next serial unit or a header.</p>
+<h3 id="breaks">§-breaks</h3>
+<ul>
+<li>Insert <code>BR</code> (just these two capital letters) where you would want to have a paragraph break.</li>
+</ul>
+<h3 id="poetry">Poetry</h3>
+<ul>
+<li><code>BR</code> can also be used for poetry lines, when they are not written in the verse-per-line format; in such cases <code>BR</code> is to be inserted wherever a new line should start, and <code>%</code> inserted between hemistiches or at the beginning of a hemistich, if there is only one.</li>
+<li>if there is a <code>SEP</code> used in the manuscript to separate hemistiches, please add it in the edited line of text after <code>%</code></li>
+</ul>
+<h2 id="additional-elements">Additional elements</h2>
+<h3 id="punctuation">Punctuation</h3>
+<p>Punctuation can be added to the edited version of the text. Simply add it wherever you want to have it. Keep in mind, “punctuation” cannot contain alpha-numeric characters. For these cases, use A[nchor] tag for insertions.</p>
+<h3 id="folio-tags">Folio Tags</h3>
+<ul>
+<li><code>FolioV00F000A</code> and <code>FolioV00F000B</code> are tags for folio numbers; the final <code>A</code> (<em>recto</em>/<em>wajh</em>) and <code>B</code> (<em>verso</em>/<em>ẓahr</em>) stand for the front and back pages, respectively, where:
+<ul>
+<li><code>V00</code> is the volume number; use <code>V1</code> if your manuscripts only has 1 volume; use <code>V01</code>, <code>V02</code>, etc., if there are more than 10 volumes in the actual manuscript.</li>
+<li><code>F0000</code> is the folio number, where the length of the number should correspond to the length of the largest number of folios in MSS. That is: is there are 500 folios, this part of the tag should looks like: <code>F001</code>, <code>F002</code>, … <code>F020</code>, etc. If there are 80 folios, the tag can looks like: <code>F01</code>, <code>F02</code>, etc.</li>
+<li>Both <code>V00</code> and <code>F00</code> elements must be of the same length throughout the transcription.</li>
+</ul></li>
+<li>insert these tags in the <code>mARkdownMSS</code> document at the beginning of a manuscript folio — on the separate line (with an empty line before and an empty line after) right before the first line of text on that folio.</li>
+</ul>
+<h3 id="lacunae">Lacunae</h3>
+<p><code>...</code> is to be used to indicate an unclear, illegible, or missing section in the original scan. Use sets of three periods up to the approximate amount of illegible text. For example, if three words are illegible, you should insert: <code>... ... ...</code></p>
+<h3 id="named-entities-persons-toponyms-etc.">Named Entities (persons, toponyms, etc.)</h3>
+<p>You can tag the same types of entities which are included in <code>mARkdown</code>, however, since the structure of <code>mARkdownMSS</code> documents is different, the tags are also slightly different: 1) small letters instead of capital (e.g., <code>@p02</code> instead of <code>@P02</code>, as in <code>mARkdown</code>); 2) the entity will not be highlighted like in <code>mARkdown</code> (because of the <code>mARkdownMSS</code> structure, an entity may be split between multiple lines, which makes highlighting impossible);</p>
+<ul>
+<li>To tag a person, use <code>@pYX</code> tags (note the small letter <code>p</code>), where <code>Y</code> is the length of a prefix in characters, while <code>X</code> is the length of the entity in words.
+<ul>
+<li>For example, if you need to tag <em>Muḥammad bn Aḥmad</em>, you can place <code>@p03</code> right in front of the name: <code>@p03 Muḥammad bn Aḥmad</code>; if you are tagging the phrase <em>wa-Muḥammad bn Aḥmad</em>, the <code>0</code> in the tag should be changed to <code>1</code> to indicate <code>wa-</code>: <code>@p13 wa-Muḥammad bn Aḥmad</code></li>
+</ul></li>
+<li>For toponyms: <code>@tYX</code></li>
+<li>etc.</li>
+</ul>
+<p><em>Note</em>: upon conversion to mARkdown, these tags (<code>@p01</code> and <code>@t01</code>) will be updated into standard ones (<code>@P01</code> and <code>@T01</code>) and color highlighting will work in the <code>mARkdown</code> document.</p>
+<h2 id="graphic-elements-from-mss">Graphic Elements from MSS</h2>
+<h3 id="in-text-elements-separator-tags">In-Text Elements: Separator Tags</h3>
+<p>You can use separator tags to indicate in-text graphical elements (non-alphanumeric separator) in the text of your transcription. The structure of the tag is: <code>SEPX</code>, where <code>X</code> is a number. Each separator tag must indicate one <em>type</em> of separators. For example, if you have circle separators and three-dot separators, you can use <code>SEP1</code> to indicate one and <code>SEP2</code> to indicate the other. This tag is to be used in the diplomatic transcription only.</p>
+<p>For each separator tag there should be a corresponding image of a separator cropped from the original image. Ideally, the original resolution should be preserved. Each image must be named with the code used in the text (for example, if there are <code>SEP1</code>, <code>SEP2</code> in the text, there must be corresponding images: <code>SEP1.jpg</code>, <code>SEP2.jpg</code>); this approach will allow us to use original separators in the final version (images can be converted into black and white and “schematized” in order to better fit into the text).</p>
+<table>
+<thead>
+<tr class="header">
+<th>Original Image</th>
+<th>Schematized Image</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[[SEP1.jpg]]</td>
+<td>[[SEP1_BW.png]]</td>
+</tr>
+<tr class="even">
+<td>[[SEP2.jpg]]</td>
+<td>[[SEP2_BW.png]]</td>
+</tr>
+<tr class="odd">
+<td>[[SEP3.jpg]]</td>
+<td>[[SEP3_BW.png]]</td>
+</tr>
+<tr class="even">
+<td>[[SEP4.jpg]]</td>
+<td>[[SEP4_BW.png]]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="figures-miniatures-images">Figures, Miniatures, Images</h3>
+<p>You can use a figure tag in order to indicate a graphical element like a figure, miniature, image. The tag had the following structure: <code>FIG_LLRR_HI_NNN</code> where:</p>
+<ul>
+<li><code>FIG</code> is a <em>figure</em> indicator (does not change).</li>
+<li><code>_LLRR</code> is the horizontal dimension of the image (on the dozen scale), where <code>LL</code> is the left margin of an image and <code>RR</code> is the right one; the scale is from 0 to 12 (as it allows to have: a half, a third, a quarter):
+<ul>
+<li><code>_0006</code> means that the image takes left half of the page; <code>_0012</code> - the image takes the full width; <code>_0612</code> - the right half; <code>_0004</code> - left third; <code>_0812</code> - right third. (see “<em>Line scale examples</em> (<code>LLRR</code>)” below for more details).</li>
+</ul></li>
+<li><code>_HI</code> is a number indicating the height of the image in lines.</li>
+<li><code>_NNN</code> is the unique number of the image (you can use the folio number + a letter, if there are more than one image on that folio, i.e. 1, 2, 3a, 3b, etc.)</li>
+</ul>
+<p>Place this tag <em>after</em> the line of text where non-alphanumeric signs or figures appear—not in the text line itself. For each figure there should be a corresponding image (of a figure cropped from the original image). Ideally, the original resolution should be preserved. Each image must be named with the code used in the text (for example, if there are <code>FIG1</code>, <code>FIG2</code> in the text, there must be corresponding images: <code>FIG1.jpg</code>, <code>FIG2.jpg</code>); this approach will allow us to use original figures in the final version (images can be converted into black and white and “schematized” in order to blend better with text)</p>
+<table>
+<thead>
+<tr class="header">
+<th>Original Image</th>
+<th>Schematized Image</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[[FIG1.jpg]]</td>
+<td>[[FIG1_BW.png]]</td>
+</tr>
+<tr class="even">
+<td>[[FIG2.jpg]]</td>
+<td>[[FIG2_BW.png]]</td>
+</tr>
+<tr class="odd">
+<td>[[FIG3.jpg]]</td>
+<td>[[FIG3_BW.png]]</td>
+</tr>
+</tbody>
+</table>
+<p><em>Figure Tag Examples:</em>:</p>
+<ul>
+<li><code>FIG_0012_05_10</code> is an image that takes the full width of the text block, 5 lines in height and appears on folio 10.</li>
+<li><code>FIG_0006_10_100b</code> is an image that takes left half of the text block, is 10 lines in height, and is the second (b) image that appears on folio100</li>
+<li><code>FIG_0612_2_5</code> is the image that takes the right half of the text block, is 2 lines in height and appears on folio 5.</li>
+</ul>
+<p><em>Line scale examples</em> (<code>LLRR</code>):</p>
+<ol type="1">
+<li><code>0004</code>: left third</li>
+</ol>
+<pre><code>texttexttexttexttexttex
+texttexttexttexttexttex
+X X X X texttexttexttex 
+X X X X texttexttexttex
+X X X X texttexttexttex
+X X X X texttexttexttex
+texttexttexttexttexttex
+texttexttexttexttexttex</code></pre>
+<ol start="2" type="1">
+<li><code>0912</code>: right quarter</li>
+</ol>
+<pre><code>texttexttexttexttexttex
+texttexttexttexttexttex
+texttexttexttextt X X X 
+texttexttexttextt X X X
+texttexttexttextt X X X
+texttexttexttextt X X X
+texttexttexttexttexttex
+texttexttexttexttexttex</code></pre>
+<ol start="3" type="1">
+<li><code>0012</code>: full width</li>
+</ol>
+<pre><code>texttexttexttexttexttex
+texttexttexttexttexttex
+X X X X X X X X X X X X 
+X X X X X X X X X X X X
+X X X X X X X X X X X X
+X X X X X X X X X X X X
+texttexttexttexttexttex
+texttexttexttexttexttex</code></pre>
+<ol start="4" type="1">
+<li><code>0408</code>: a third in the middle</li>
+</ol>
+<pre><code>texttexttexttexttexttex
+texttexttexttexttexttex
+texttex X X X X texttex 
+texttex X X X X texttex
+texttex X X X X texttex
+texttex X X X X texttex
+texttexttexttexttexttex
+texttexttexttexttexttex</code></pre>
+<h2 id="issues">Issues</h2>
+<ul>
+<li>how to deal with <strong>split words</strong>, which do occur in MSS?
+<ul>
+<li>keep as is in the diplomatic transcription;</li>
+<li>keep as is in the edited, but add pluses: one directly after the first part (no space); another directly before the second part (no space);</li>
+<li>the word can be merged in mARkdown with the help of those pluses as well as in the final visual representation of the edited text</li>
+</ul></li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li><a href="https://docs.google.com/document/d/17A1Zug7lMHZMiNENNcMMCik1K1epQNvYbqtP5zPA-24/edit"><strong>Getting Started with OpenITI mARkdown</strong> (Google Doc)</a></li>
+<li><a href="https://docs.google.com/document/d/1MTBiCTc0URbtDbDrrWUGGKqdpGh5hvj0t738R0CXepU/edit"><strong>OpenITI mARkdownMSS</strong> (Google Doc)</a></li>
+</ul>
+<h3 id="up-to-date">Up to date</h3>
+<p>There is a whole second set of issues that Maxim is going to go through and create a script to automatically fix. Most of these are issues or modifications that we thought needed to be made to make the OpenITI mARkdown schema clearer or more precise. Actually, working with you on this project really helped us think through several of these issues. Below are the issues that Maxim is going to write a script to automatically fix:</p>
+<ol type="1">
+<li>We realized that mARkdown highlighters only work in non-vocalized text so Maxim is going to automatically generate a non-vocalized version of your edited/corrected lines. This line will be marked with: #m#</li>
+</ol>
+<ul>
+<li><strong>UPDATE:</strong> keep the original two-line transcription: diplomatic (<code>#=#</code>) and edited (<code>#~#</code>); <em>Reason:</em> mARkdown can be automatically generated from <code>edited</code>; using English letters messes things up the visual directionality (it works ok on EditPadPro, but will not work in Kate, which we want to adopt as it works natively on Mac and Linux, and is open source)</li>
+</ul>
+<ol start="2" type="1">
+<li>On a related note, we are going to change the line tags to #d# (diplomatic transcription), #e# (edited/corrected transcription with vocalization), and #m# (edited/corrected transcription with mARkdown and without vocalization) for the sake of clarity.
+<ul>
+<li><strong>UPDATE</strong>: there are issues with using Latin characters (they may mess up the visual directionality in text editors); keeping non-letter characters seems a better option.</li>
+</ul></li>
+<li>The file names should be the same as the URI names in the metadata. Maxim is going to fix a few issues in the URIs you provided and then re-name the file names with them. 
+<ul>
+<li>IDs should be shorter</li>
+</ul></li>
+<li>For some reason there are a lot of extra spaces in the document so Maxim is going to strip those out.
+<ul>
+<li>can be fixed automatically</li>
+</ul></li>
+<li>The additional two transcriptions below the mARkdown documents are not necessary. We only included them in the sample file for demonstration sake. Those two renders of the text can be easily reproduced from the mARkdown text itself.
+<ul>
+<li>we can add it <em>as an appendix</em> at the end of the file, after: <code>#mARkdownAUTOGENERATED###########</code>, which will be regenerated every time the script is run; it can also be placed into a separate file, where only mARkdown is used.</li>
+</ul></li>
+<li>Finally, Maxim is going to change the text anchor name from Q to A for clarity.</li>
+</ol>
+<h1 id="checklist">Checklist</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Correct URI IDs</li>
+<li><input type="checkbox" disabled="" checked="" />
+Correct TAGs, spacing, etc.</li>
+<li><input type="checkbox" disabled="" />
+Converter</li>
+<li><input type="checkbox" disabled="" />
+Need to add processing of margin comments…</li>
+</ul>
+<h2 id="issues-1">Issues</h2>
+<ul>
+<li>some way to deal with merged words in the diplomatic transcription:
+<ul>
+<li>DT “word_word” (_ will be automatically removed)</li>
+<li>ED “word word”</li>
+</ul></li>
+<li>missing words in the diplomatic, i.e. they must be there, but dropped (not the case of illegible words):
+<ul>
+<li>this is what #+# is for, but insertion is only in the edited text: TAG, TAG+insertion</li>
+</ul></li>
+</ul>
+<h2 id="inconsistencies">Inconsistencies</h2>
+<ul>
+<li>no catalog ID for <code>1280CumarIbnSayyid.AyatTaylor.SCHAD2-ara1</code></li>
+<li><em>hamzaŧ</em>s are often omitted in the edited version;</li>
+<li>names are tagged with <em>waw</em> attached and with <em>waw</em> detached, while they are attached in the diplomatic transcription;</li>
+<li>most commonly, spaces are missing where they must be — the highlighting scheme is designed to <em>highlight</em> those issues: if tags are not changing colors, it means you typed it wrong;</li>
+<li>the comment and addition lines are often typed incorrectly, which is partially because of the issues with directionality, but again, color highlights must be used as a test that format is correctly;</li>
+</ul>
+</body>
+</html>

@@ -153,6 +153,7 @@ def converter(pathToFile):
 
 		# process footnotes and comments
 		footnotesFinal = []
+		variants = []
 		fnCounter = 0
 		for k,v in footnotesData.items():
 			fnCounter += 1
@@ -169,12 +170,25 @@ def converter(pathToFile):
 
 				print("\b%s (.*) %s\b" % (k, k))
 
-				#footNote = m1 + " ... " + m2 + " : " + v + ".<br>"
-				footNote = m1 + " ... " + m2 + " : " + v + "; "
+				footNote = m1 + " ... " + m2 + " : " + v + "; <br>"
 				footnotesFinal.append(footNote)
 
+			elif refMap == 1:
+				counterTemp = 0
+				print(k)
+				m1 = "<span class='fnt'>((%d))</span>" % fnCounter
+				textFinal = re.sub(r"\b%s\b" % (k), r"%s" % (m1), textFinal)
+
+				#footNote = m1 + " ... " + m2 + " : " + v + ".<br>"
+				footNote = m1 + " : " + v + "; <br>"
+				footnotesFinal.append(footNote)
+
+			else:
+				print(v, v)
+				print("ERROR! ERROR! ERROR")
+
 		# process variations
-		variants = []
+		#variants = []
 		varCounter = 1
 		#for i in re.finditer(r"\b([^\[^\b^\s]+\[\[[^\]]+\b\]\])", textFinal):
 		for i in re.finditer(r"\b([^\s]+\[\[[^\]]+\]\])", textFinal):

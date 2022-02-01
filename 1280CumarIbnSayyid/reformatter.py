@@ -13,7 +13,7 @@ sourceFolder = "./"
 
 metadataEnd = r"#METADATAEND#+\n"
 charSplitter = r"[a-zA-Z0-9@#=\+\(\)\{\}\s+]+"
-lineStarter = tuple(["#=#", "#+#"])
+lineStarter = tuple(["#=#", "#~#"])
 imageWrapper = '<span class="popupImage"><a href="$HTMLPATH$" target="_blank"><img src="$HTMLPATH$" alt=""/>⊛</a></span>'
 
 imageDic = {}
@@ -140,7 +140,12 @@ def converter(pathToFile):
 			elif t.startswith("#*#"):
 				fnID   = t[3:].split("::")[0].strip()
 				fnBody = t[3:].split("::")[1].strip()
-				footnotesData[fnID] = fnBody
+				footnotesData[fnID] = "<i>comment</i>: " + fnBody
+
+			elif t.startswith("#+#"):
+				fnID   = t[3:].split("::")[0].strip()
+				fnBody = t[3:].split("::")[1].strip()
+				footnotesData[fnID] = "<i>insert</i>: " + fnBody
 
 			# catch errors
 			else:

@@ -28,10 +28,13 @@ def processFolio(lineOfText):
 	if int(vol) == 0:
 		volInfo = ""
 	else:
-		volInfo = "vol. %d " % int(vol)
+		#volInfo = "vol. %d " % int(vol)
+		volInfo = "جـ %d " % int(vol)
 	# folio
-	folio = re.search(r"FolioV\d+F(\d+[AB])", lineOfText).group(1).lower()
-	folioInfo = volInfo + "f.%s" % folio
+	#folio = re.search(r"FolioV\d+F(\d+[AB])", lineOfText).group(1).lower()
+	folio = re.search(r"FolioV\d+F(\d+[AB])", lineOfText).group(1).lower().replace("a", "و").replace("b", "ظ")
+	#folioInfo = volInfo + "f.%s" % folio
+	folioInfo = volInfo + "صـ %s" % re.sub(r"\b0+", "", folio)
 
 	folioInfo = "<span class='folio'>[%s]</span>" % folioInfo
 	return(folioInfo)

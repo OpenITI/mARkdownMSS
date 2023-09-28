@@ -1,178 +1,219 @@
-h3{
+h3 {
   text-align: center;
 }
 
-
-.fnt{
-    font-family: 'Amiri';
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 1;
-    margin: 36px 0;
-    background-color: #fff;
-    color: #b30000;
-    vertical-align: super;
-    /*display: inline;*/
-    /*margin-right: 15%;*/
-    /*margin-left:  15%;*/
+.fntMrkr {
+  font-family: "Amiri";
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: #fff;
+  color: #b30000;
+  vertical-align: super;
+  /*display: inline;*/
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-.comment{
-    font-family: 'Amiri';
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1;
-    margin: 36px 0;
-    background-color: #fff;
-    color: #b30000;
-    /*display: inline;*/
-    /*margin-right: 15%;*/
-    /*margin-left:  15%;*/
+.fntMrkrCmt {
+  font-family: "Amiri";
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: #fff;
+  color: #b30000;
+  vertical-align: super;
+  /*display: inline;*/
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-
-.line{
-    font-family: 'Amiri';
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 1;
-    margin: 36px 0;
-    background-color: #fff;
-    color: #ddd;
-    /*display: inline;*/
-    /*margin-right: 15%;*/
-    /*margin-left:  15%;*/
+.fntMrkrCmt:has(~ .fntMrk) {
+  /* content: " ,"; */
+  font-size: 10px;
 }
 
-.folio{
-    font-family: 'Amiri';
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 1;
-    margin: 36px 0;
-    background-color: #fff;
-    color: #008000;
-    /*display: inline;*/
-    /*margin-right: 15%;*/
-    /*margin-left:  15%;*/
+.fnt {
+  font-family: "Amiri";
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: #fff;
+  color: #b30000;
+  /* vertical-align: super; */
+  /*display: inline;*/
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-.key{
-    font-family: 'Amiri';
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 1;
-    margin: 36px 0;
-    background-color: #fff;
-    color: #008000;
-    /*display: inline;*/
-    /*margin-right: 15%;*/
-    /*margin-left:  15%;*/
+.om {
+  direction: ltr;
+  display: inline-block;
 }
 
-.bib{
-    font-family: 'Courier New';
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1;
-    margin: 36px 0;
-    background-color: "white";
-    color: "black";
-    display: inline;
-    margin-right: 10%;
-    margin-left:  10%;
-    white-space: pre;
+.comment {
+  font-family: "Amiri";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: #fff;
+  color: #b30000;
+  /*display: inline;*/
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-
-p.mainText{
-    max-width: 100%;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-right: 10px; /* Same as the width of the sidenav */
-    margin-left:  10px;
-    margin-bottom: 0%;
-    background-color: white;
-    padding-left: 0px; 
-    font-family: 'Amiri', 'Lateef', 'Geeza Pro', serif;
-    direction: rtl;
+.line {
+  font-family: "Amiri";
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+  /* margin: 36px 0; */
+  background-color: #fff;
+  color: #ddd;
+  direction: ltr;
+  display: inline-block;
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-p.comments{
-    font-size: 14px;
-    margin-top: 10px;
-    margin-right: 10px; /* Same as the width of the sidenav */
-    margin-left:  10px;
-    margin-bottom: 0%;
-    background-color: white;
-    padding-left: 0px; 
-    font-family: 'Amiri', 'Lateef', 'Geeza Pro', serif;
-    direction: ltr;
+.folio {
+  font-family: "Amiri";
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: #fff;
+  color: #008000;
+  /*display: inline;*/
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-p.metadata{
-    font-size: 12px;
-    margin-top: 10px;
-    margin-right: 10px; /* Same as the width of the sidenav */
-    margin-left:  10px;
-    margin-bottom: 0%;
-    background-color: white;
-    padding-left: 0px; 
-    font-family: 'Amiri', 'Lateef', 'Geeza Pro', serif;
-    direction: ltr;
+.key {
+  font-family: "Amiri";
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: #fff;
+  color: #008000;
+  /*display: inline;*/
+  /*margin-right: 15%;*/
+  /*margin-left:  15%;*/
 }
 
-.variants{
-    font-size: 14px;
-    margin-top: 10px;
-    margin-right: 10px; /* Same as the width of the sidenav */
-    margin-left:  10px;
-    margin-bottom: 0%;
-    background-color: white;
-    padding-left: 0px; 
-    font-family: 'Amiri', 'Lateef', 'Geeza Pro', serif;
-    direction: rtl;
+.bib {
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  margin: 36px 0;
+  background-color: "white";
+  color: "black";
+  display: inline;
+  margin-right: 10%;
+  margin-left: 10%;
+  white-space: pre;
+}
+
+p.mainText {
+  max-width: 100%;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-right: 10px;
+  /* Same as the width of the sidenav */
+  margin-left: 10px;
+  margin-bottom: 0%;
+  background-color: white;
+  padding-left: 0px;
+  font-family: "Amiri", "Lateef", "Geeza Pro", serif;
+  direction: rtl;
+}
+
+p.comments {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+  /* Same as the width of the sidenav */
+  margin-left: 10px;
+  margin-bottom: 0%;
+  background-color: white;
+  padding-left: 0px;
+  font-family: "Amiri", "Lateef", "Geeza Pro", serif;
+  direction: ltr;
+}
+
+p.metadata {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 10px;
+  /* Same as the width of the sidenav */
+  margin-left: 10px;
+  margin-bottom: 0%;
+  background-color: white;
+  padding-left: 0px;
+  font-family: "Amiri", "Lateef", "Geeza Pro", serif;
+  direction: ltr;
+}
+
+.variants {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+  /* Same as the width of the sidenav */
+  margin-left: 10px;
+  margin-bottom: 0%;
+  background-color: white;
+  padding-left: 0px;
+  font-family: "Amiri", "Lateef", "Geeza Pro", serif;
+  direction: rtl;
 }
 
 a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #b30000;
+  text-decoration: none;
+  font-weight: bold;
+  color: #b30000;
 }
 
-p{
-    text-indent: 0px;
-    text-align: justify;
-    text-justify: inter-word;
+p {
+  text-indent: 0px;
+  text-align: justify;
+  text-justify: inter-word;
 }
-
 
 body {
-    width: 90%;
-    background-color: "white";
-    font-family: Baskerville, Brill;
-    margin-left:  5%;
-    margin-right: 5%;
-    padding: 0px;
-    direction: ltr;
+  width: 90%;
+  background-color: "white";
+  font-family: Baskerville, Brill;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0px;
+  direction: ltr;
 }
-
 
 /* popup image for separators and graphic elements */
 
 .popupImage a img {
-    display: none;
-    position: absolute;
-    left: +20px;
-    top: -50px;
+  display: none;
+  position: absolute;
+  left: +20px;
+  top: -50px;
 }
+
 .popupImage a {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
-.popupImage a img{
-    display: none;
+
+.popupImage a img {
+  display: none;
 }
-.popupImage a:hover img{
-    display: inherit;
+
+.popupImage a:hover img {
+  display: inherit;
 }

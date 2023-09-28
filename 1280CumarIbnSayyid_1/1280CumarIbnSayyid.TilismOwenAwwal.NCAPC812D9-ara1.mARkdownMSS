@@ -16,8 +16,8 @@
 
 FolioV1F1A
 
-#=# FIG12b
-#~# FIG12b A19
+#=# FIG1b
+#~# FIG1b A19
 
 #*# A19 :: This figure is significantly damaged, and it is replaced by an equivalent
 
@@ -27,21 +27,21 @@ FolioV1F1A
 #*# A1 :: Jim Owen
 
 #=# بِتسِه عُوءِنْ SEP1 تامَسْ عُوءِنْ SEP1 ماسَه عُوءِنْ SEP1
-#~# A2 @p02 بِتسِه عُوءِنْ A3 A2 SEP1 @p02 تامَسْ عُوءِنْA4 A3 SEP1 @p02 ماسَه عُوءِنْ SEP1 A4
+#~# A2 @p02 بِتسِه عُوءِنْ A2 A3 SEP1 @p02 تامَسْ عُوءِنْ A3 A4 SEP1 @p02 ماسَه عُوءِنْ SEP1 A4
 
 #*# A2 :: Betsy Owen
 
-#*# A3 ::Thomas Owen
+#*# A3 :: Thomas Owen
 
 #*# A4 :: Martha Owen
 
 #==# ميره عُوءِنْ
-#~~# @p02 ميره عُوءِنْ A5
+#~~# A5 @p02 ميره عُوءِنْ A5
 
 #*# A5 :: Mary Owen
 
 #=# شفَاي عُوءِنْ SEP1 ذُون عُوءِنْ SEP1 ماکِتْ عُوءِنْ SEP1
-#~# A6 @p02 شفَاي عُوءِنْ A7 A6 SEP1 @p02 ذُون عُوءِنْ A8 SEP1 A7 @p02 ماکِتْ عُوءِنْ SEP1 A8
+#~# A6 @p02 شفَاي عُوءِنْ A6 A7 SEP1 @p02 ذُون عُوءِنْ A7 SEP1 A8 @p02 ماکِتْ عُوءِنْ SEP1 A8
 
 #*# A6 :: Sophia Owen
 
